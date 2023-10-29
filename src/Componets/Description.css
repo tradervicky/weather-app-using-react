@@ -1,0 +1,28 @@
+.desc{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.cardDesc{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+
+.descIcon{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+} 
+
+ 
