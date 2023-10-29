@@ -95,5 +95,12 @@
   display: flex;
   gap: 5px;
  }
-
+@media(max-width:420px){
+  #inputSearch button{
+    font-size: 0.8rem;
+  }
+  .main-background{
+    height: 120vh;
+  }
+}
   
